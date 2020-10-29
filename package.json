@@ -1,0 +1,16 @@
+{
+  "name": "node-red-typescript-codegen",
+  "version": "0.1.0",
+  "description": "A tool to generate boilerplate code for Node-RED nodes using TypeScript and the 'node-red-typescript-essentials' library",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "bin": {
+    "node-red-typescript-codegen": "index.js"
+  },
+  "author": "Sebastian Bechtold",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.5",
+    "typescript": "^4.0.5"
+  }
+}
